@@ -1,0 +1,1174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity2">
+
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="344dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="24dp"
+            android:text="TextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="408dp"
+            android:layout_height="86dp"
+            android:layout_marginTop="80dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView25">
+
+            <LinearLayout
+                android:layout_width="394dp"
+                android:layout_height="64dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioButton11"
+                    android:layout_width="76dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="A-" />
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="256dp"
+                    android:layout_height="36dp"
+                    android:text="TextView"
+                    tools:ignore="MissingConstraints" />
+
+                <RadioButton
+                    android:id="@+id/radioButton4"
+                    android:layout_width="76dp"
+                    android:layout_height="wrap_content"
+                    android:text="B-" />
+            </LinearLayout>
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"></LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout20"
+            android:layout_width="411dp"
+            android:layout_height="290dp"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroup"
+            tools:ignore="MissingConstraints">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="190dp"
+                    android:layout_height="match_parent"
+                    android:text="    Heurtait à l'arrière" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:layout_weight="1"
+                    android:text="اصطدام من الخلف.  " />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/Ac1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/textView3"
+                    android:layout_alignLeft="@+id/checkBox2"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_weight="1"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="312dp" />
+
+                <TextView
+                    android:id="@+id/Ac2"
+                    android:layout_width="182dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:text="1- Roulant dans le même sens et sur  une même file" />
+
+                <TextView
+                    android:id="@+id/textVihgfew2123"
+                    android:layout_width="186dp"
+                    android:layout_height="33dp"
+                    android:layout_weight="1"
+                    android:text="1-وكان يسير في نفس الاتجاه وعلى نفس الصف " />
+
+                <CheckBox
+                    android:id="@+id/Ac3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/textView3"
+                    android:layout_alignLeft="@+id/checkBox2"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_weight="1"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="312dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/Ac4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/textView3"
+                    android:layout_alignLeft="@+id/checkBox2"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_weight="1"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="312dp" />
+
+                <TextView
+                    android:id="@+id/textVitrgew20"
+                    android:layout_width="182dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:text="1-Roulait dans le même sens et sur une file différents" />
+
+                <TextView
+                    android:id="@+id/texfgddtView21"
+                    android:layout_width="186dp"
+                    android:layout_height="33dp"
+                    android:layout_weight="1"
+                    android:text="2-كان يسير في نفس الاتجاه وعلى صف مختلف " />
+
+                <CheckBox
+                    android:id="@+id/Ac5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/textView3"
+                    android:layout_alignLeft="@+id/checkBox2"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_weight="1"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="312dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/Ac6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/textView3"
+                    android:layout_alignLeft="@+id/checkBox2"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_weight="1"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="312dp" />
+
+                <TextView
+                    android:id="@+id/textVikiiew20"
+                    android:layout_width="182dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:text="3-Roulait  en Sens inverse" />
+
+                <TextView
+                    android:id="@+id/tedgfsxtView21"
+                    android:layout_width="186dp"
+                    android:layout_height="33dp"
+                    android:layout_weight="1"
+                    android:text="3- كان يسير في اتجاه معاكس" />
+
+                <CheckBox
+                    android:id="@+id/Ac7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/textView3"
+                    android:layout_alignLeft="@+id/checkBox2"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_weight="1"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="312dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/Ac8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/textView3"
+                    android:layout_alignLeft="@+id/checkBox2"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_weight="1"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="312dp" />
+
+                <TextView
+                    android:id="@+id/texwaetView20"
+                    android:layout_width="182dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:text="4-Prévenait d'une chaussée  différente" />
+
+                <TextView
+                    android:id="@+id/teesrqwxtView21"
+                    android:layout_width="186dp"
+                    android:layout_height="33dp"
+                    android:layout_weight="1"
+                    android:text="4-كان قادما من طريق مختلفة" />
+
+                <CheckBox
+                    android:id="@+id/Ac9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/textView3"
+                    android:layout_alignLeft="@+id/checkBox2"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_weight="1"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="312dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/Ac10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/textView3"
+                    android:layout_alignLeft="@+id/checkBox2"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_weight="1"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="312dp" />
+
+                <TextView
+                    android:id="@+id/tehgxtView20"
+                    android:layout_width="182dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:text="5-Venait de droit (dans un careffour)" />
+
+                <TextView
+                    android:id="@+id/teefedxtView21"
+                    android:layout_width="186dp"
+                    android:layout_height="33dp"
+                    android:layout_weight="1"
+                    android:text="5-كان قادما من اليمين (داخل مفرق)" />
+
+                <CheckBox
+                    android:id="@+id/Ac11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/textView3"
+                    android:layout_alignLeft="@+id/checkBox2"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_weight="1"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="312dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout21"
+            android:layout_width="408dp"
+            android:layout_height="127dp"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout20">
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/Ac12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/textView3"
+                    android:layout_alignLeft="@+id/checkBox2"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_weight="1"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="312dp" />
+
+                <TextView
+                    android:id="@+id/Ac13hfghf"
+                    android:layout_width="182dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:text="6-S'engagerait sur une place à sens giratoire " />
+
+                <TextView
+                    android:id="@+id/textViewfd21"
+                    android:layout_width="186dp"
+                    android:layout_height="33dp"
+                    android:layout_weight="1"
+                    android:text="6-كان داخلا في مساحة دات اتجاه دائري" />
+
+                <CheckBox
+                    android:id="@+id/Ac13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/textView3"
+                    android:layout_alignLeft="@+id/checkBox2"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_weight="1"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="312dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/Ac14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/textView3"
+                    android:layout_alignLeft="@+id/checkBox2"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_weight="1"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="312dp" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="182dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:text="7-Roulait sur une place à sens giratoire" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="186dp"
+                    android:layout_height="33dp"
+                    android:layout_weight="1"
+                    android:text="7- كان سائرا في ساحة دات اتجاه دائري" />
+
+                <CheckBox
+                    android:id="@+id/Ac15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/textView3"
+                    android:layout_alignLeft="@+id/checkBox2"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_weight="1"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="312dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout22"
+            android:layout_width="411dp"
+            android:layout_height="173dp"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout21">
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/Ac16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/textView3"
+                    android:layout_alignLeft="@+id/checkBox2"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_weight="1"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="312dp" />
+
+                <TextView
+                    android:id="@+id/texttfView204"
+                    android:layout_width="182dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:text="8-En stationnement " />
+
+                <TextView
+                    android:id="@+id/texfxtView2123"
+                    android:layout_width="186dp"
+                    android:layout_height="33dp"
+                    android:layout_weight="1"
+                    android:text="8-في حالة الوقوف" />
+
+                <CheckBox
+                    android:id="@+id/Ac17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/textView3"
+                    android:layout_alignLeft="@+id/checkBox2"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_weight="1"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="312dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/Ac18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/textView3"
+                    android:layout_alignLeft="@+id/checkBox2"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_weight="1"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="312dp" />
+
+                <TextView
+                    android:id="@+id/texfdftView204"
+                    android:layout_width="182dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:text="9-Quittait un stationnement " />
+
+                <TextView
+                    android:id="@+id/textViewdr2123"
+                    android:layout_width="186dp"
+                    android:layout_height="33dp"
+                    android:layout_weight="1"
+                    android:text="9- كان خارجا من الوقوف " />
+
+                <CheckBox
+                    android:id="@+id/Ac19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/textView3"
+                    android:layout_alignLeft="@+id/checkBox2"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_weight="1"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="312dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/Ac20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/textView3"
+                    android:layout_alignLeft="@+id/checkBox2"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_weight="1"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="312dp" />
+
+                <TextView
+                    android:id="@+id/textVsdfiew204"
+                    android:layout_width="182dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:text="10-Prenait le stationnement" />
+
+                <TextView
+                    android:id="@+id/texsdtView2123"
+                    android:layout_width="186dp"
+                    android:layout_height="33dp"
+                    android:layout_weight="1"
+                    android:text="10- كان على وشك الوقوف" />
+
+                <CheckBox
+                    android:id="@+id/Ac21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/textView3"
+                    android:layout_alignLeft="@+id/checkBox2"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_weight="1"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="312dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout23"
+            android:layout_width="410dp"
+            android:layout_height="293dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="1dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout22">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/Ac22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/textView3"
+                    android:layout_alignLeft="@+id/checkBox2"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_weight="1"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="312dp" />
+
+                <TextView
+                    android:id="@+id/textVtfdiew204"
+                    android:layout_width="182dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:text="11-Reculait " />
+
+                <TextView
+                    android:id="@+id/texfgtView2123"
+                    android:layout_width="186dp"
+                    android:layout_height="33dp"
+                    android:layout_weight="1"
+                    android:text="11- كان يتأخر " />
+
+                <CheckBox
+                    android:id="@+id/Ac23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignBaseline="@+id/textView3"
+                    android:layout_alignLeft="@+id/checkBox2"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_weight="1"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="312dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/Ac24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/textView3"
+                    android:layout_alignLeft="@+id/checkBox2"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_weight="1"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="312dp" />
+
+                <TextView
+                    android:id="@+id/textVidsew204"
+                    android:layout_width="182dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:text="12-Doublait  ( dépassait)" />
+
+                <TextView
+                    android:id="@+id/texkjtView2123"
+                    android:layout_width="186dp"
+                    android:layout_height="33dp"
+                    android:layout_weight="1"
+                    android:text="12-كان يتجاوز(يسبق)" />
+
+                <CheckBox
+                    android:id="@+id/Ac25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignBaseline="@+id/textView3"
+                    android:layout_alignLeft="@+id/checkBox2"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_weight="1"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="312dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/Ac26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/textView3"
+                    android:layout_alignLeft="@+id/checkBox2"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_weight="1"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="312dp" />
+
+                <TextView
+                    android:id="@+id/textVisdew204"
+                    android:layout_width="182dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:text="13-Dépassement irrégulière" />
+
+                <TextView
+                    android:id="@+id/textgdrView2123"
+                    android:layout_width="186dp"
+                    android:layout_height="33dp"
+                    android:layout_weight="1"
+                    android:text="13- تجاوز غير قانوني " />
+
+                <CheckBox
+                    android:id="@+id/Ac27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignBaseline="@+id/textView3"
+                    android:layout_alignLeft="@+id/checkBox2"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_weight="1"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="312dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/Ac28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/textView3"
+                    android:layout_alignLeft="@+id/checkBox2"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_weight="1"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="312dp" />
+
+                <TextView
+                    android:id="@+id/texthtfView204"
+                    android:layout_width="182dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:text="14-Changeait le file " />
+
+                <TextView
+                    android:id="@+id/textdfView2123"
+                    android:layout_width="186dp"
+                    android:layout_height="33dp"
+                    android:layout_weight="1"
+                    android:text="14-كان يغير خط السير " />
+
+                <CheckBox
+                    android:id="@+id/Ac29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignBaseline="@+id/textView3"
+                    android:layout_alignLeft="@+id/checkBox2"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_weight="1"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="312dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/Ac30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/textView3"
+                    android:layout_alignLeft="@+id/checkBox2"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_weight="1"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="312dp" />
+
+                <TextView
+                    android:id="@+id/textVidasew204"
+                    android:layout_width="182dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:text="15-Virait à droite " />
+
+                <TextView
+                    android:id="@+id/textViiooiew2123"
+                    android:layout_width="186dp"
+                    android:layout_height="33dp"
+                    android:layout_weight="1"
+                    android:text="15- كان ينحرف إلى اليمين" />
+
+                <CheckBox
+                    android:id="@+id/Ac31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignBaseline="@+id/textView3"
+                    android:layout_alignLeft="@+id/checkBox2"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_weight="1"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="312dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/Ac32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/textView3"
+                    android:layout_alignLeft="@+id/checkBox2"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_weight="1"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="312dp" />
+
+                <TextView
+                    android:id="@+id/textViewx204"
+                    android:layout_width="182dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:text="16-Virait à gauche " />
+
+                <TextView
+                    android:id="@+id/textViewss2123"
+                    android:layout_width="186dp"
+                    android:layout_height="33dp"
+                    android:layout_weight="1"
+                    android:text="16-كان ينحرف إلى اليسار " />
+
+                <CheckBox
+                    android:id="@+id/Ac33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignBaseline="@+id/textView3"
+                    android:layout_alignLeft="@+id/checkBox2"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_weight="1"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="312dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout19"
+            android:layout_width="401dp"
+            android:layout_height="190dp"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout23">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="91dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/Ac34"
+                    android:layout_width="34dp"
+                    android:layout_height="70dp"
+                    android:layout_alignBaseline="@+id/textView3"
+                    android:layout_alignLeft="@+id/checkBox2"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_weight="1"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="312dp" />
+
+                <TextView
+                    android:id="@+id/textViefesw204"
+                    android:layout_width="173dp"
+                    android:layout_height="51dp"
+                    android:layout_weight="1"
+                    android:text="17- s'engageait  dans un parking. Un lieu privé , un chemin de la terre" />
+
+                <TextView
+                    android:id="@+id/textViewsea2123"
+                    android:layout_width="180dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:text="17-كان يدخل في موقف عمومي . في محل خصوصي في طريق غير معبدة" />
+
+                <CheckBox
+                    android:id="@+id/Ac35"
+                    android:layout_width="35dp"
+                    android:layout_height="71dp"
+                    android:layout_alignBaseline="@+id/textView3"
+                    android:layout_alignLeft="@+id/checkBox2"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_weight="1"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="312dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="101dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/Ac36"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/textView3"
+                    android:layout_alignLeft="@+id/checkBox2"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_weight="1"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="312dp" />
+
+                <TextView
+                    android:id="@+id/tefdextView204"
+                    android:layout_width="185dp"
+                    android:layout_height="64dp"
+                    android:layout_weight="1"
+                    android:text="18-Sortait d'un parking, d'un lieu privé , d'un chemin de la terre" />
+
+                <TextView
+                    android:id="@+id/textViwew2123"
+                    android:layout_width="187dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="18-كان يخرج من موقف عمومي من محل خصوصي، من طريق غير معبدة" />
+
+                <CheckBox
+                    android:id="@+id/Ac37"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignBaseline="@+id/textView3"
+                    android:layout_alignLeft="@+id/checkBox2"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_weight="1"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="312dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout24"
+            android:layout_width="402dp"
+            android:layout_height="272dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout19">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="94dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/Ac38"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/textView3"
+                    android:layout_alignLeft="@+id/checkBox2"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_weight="1"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="312dp" />
+
+                <TextView
+                    android:id="@+id/textesdsView204"
+                    android:layout_width="182dp"
+                    android:layout_height="56dp"
+                    android:layout_weight="1"
+                    android:text="19-Empiétait sur la partie du chaussée  réservé à la circulation en sens inverse" />
+
+                <TextView
+                    android:id="@+id/textViewea2123"
+                    android:layout_width="179dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="19-كان ينتهج جزء من الطريق المخصص للإتجاه المعاكس في السير" />
+
+                <CheckBox
+                    android:id="@+id/Ac39"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignBaseline="@+id/textView3"
+                    android:layout_alignLeft="@+id/checkBox2"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_weight="1"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="312dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/Ac40"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/textView3"
+                    android:layout_alignLeft="@+id/checkBox2"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_weight="1"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="312dp" />
+
+                <TextView
+                    android:id="@+id/textVfgiew2rf04"
+                    android:layout_width="182dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:text="20-Roulait en Sens interdit " />
+
+                <TextView
+                    android:id="@+id/texttrhjkView2123"
+                    android:layout_width="186dp"
+                    android:layout_height="33dp"
+                    android:layout_weight="1"
+                    android:text="20 - كان يسير في اتجاه ممنوع" />
+
+                <CheckBox
+                    android:id="@+id/Ac41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignBaseline="@+id/textView3"
+                    android:layout_alignLeft="@+id/checkBox2"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_weight="1"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="312dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/Ac42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/textView3"
+                    android:layout_alignLeft="@+id/checkBox2"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_weight="1"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="312dp" />
+
+                <TextView
+                    android:id="@+id/Ac43"
+                    android:layout_width="182dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:text="21-N'a pas respecté un signal de priorité" />
+
+                <TextView
+                    android:id="@+id/textVfdgsefiew2123"
+                    android:layout_width="186dp"
+                    android:layout_height="33dp"
+                    android:layout_weight="1"
+                    android:text="21-لم يحترم علامة الأسبقية" />
+
+                <CheckBox
+                    android:id="@+id/Ac44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignBaseline="@+id/textView3"
+                    android:layout_alignLeft="@+id/checkBox2"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_weight="1"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="312dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/Ac45"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/textView3"
+                    android:layout_alignLeft="@+id/checkBox2"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_weight="1"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="312dp" />
+
+                <TextView
+                    android:id="@+id/textfgdrView204"
+                    android:layout_width="182dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:text="22-Faisait un Demi tour" />
+
+                <TextView
+                    android:id="@+id/textViewgrsf2123"
+                    android:layout_width="186dp"
+                    android:layout_height="33dp"
+                    android:layout_weight="1"
+                    android:text="22- كان يقوم بنصف دورة " />
+
+                <CheckBox
+                    android:id="@+id/Ac46"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignBaseline="@+id/textView3"
+                    android:layout_alignLeft="@+id/checkBox2"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_weight="1"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="312dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/checkBox22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/textView3"
+                    android:layout_alignLeft="@+id/checkBox2"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_weight="1"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="312dp" />
+
+                <TextView
+                    android:id="@+id/textView204"
+                    android:layout_width="182dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:text="23-Ouvrait un portiére" />
+
+                <TextView
+                    android:id="@+id/textView2123"
+                    android:layout_width="186dp"
+                    android:layout_height="33dp"
+                    android:layout_weight="1"
+                    android:text="23- كان يفتح باب سيارته" />
+
+                <CheckBox
+                    android:id="@+id/checkBox489"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignBaseline="@+id/textView3"
+                    android:layout_alignLeft="@+id/checkBox2"
+                    android:layout_alignBottom="@+id/textView3"
+                    android:layout_weight="1"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="312dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="151dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="1dp"
+            android:text="Button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout24" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

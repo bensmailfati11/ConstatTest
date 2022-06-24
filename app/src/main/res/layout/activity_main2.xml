@@ -1,0 +1,1202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity2">
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout16"
+            android:layout_width="408dp"
+            android:layout_height="57dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout15">
+
+            <TextView
+                android:id="@+id/textView282"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/par_la_pr_fecture_de" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName833"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView2988"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/par_fctr" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout15"
+            android:layout_width="410dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginBottom="1dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout16"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout14">
+
+            <TextView
+                android:id="@+id/textView2844"
+                android:layout_width="47dp"
+                android:layout_height="31dp"
+                android:layout_weight="1"
+                android:text="@string/d_livr_de" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName8234"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView29123"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/asn" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout13"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout14"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout12">
+
+            <TextView
+                android:id="@+id/textView2845"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/adress2" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName8123"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView291233"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/adrss" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="190dp"
+            android:layout_height="73dp"
+            android:text="@string/ce_formulaire_concerne_le_v_hicule_a"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout99"
+            android:layout_width="410dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="4dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/textVie"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout90"
+            tools:ignore="MissingConstraints,NotSibling">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Allant vers :"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/Eallr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/vers" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLaView"
+            android:layout_width="408dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="112dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/textView422"
+                android:layout_width="73dp"
+                android:layout_height="31dp"
+                android:layout_weight="1"
+                android:text="@string/v_hicule" />
+
+            <EditText
+                android:id="@+id/Eve"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/textV442"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/voiture" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="408dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="88dp"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="-3dp">
+
+            <TextView
+                android:id="@+id/textV44"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_weight="1"
+                android:text="@string/marque_type" />
+
+            <EditText
+                android:id="@+id/Emarq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/textV122"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/genre" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout90"
+            android:layout_width="408dp"
+            android:layout_height="68dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout99"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout7"
+            app:layout_constraintVertical_bias="1.0">
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/venant_de" />
+
+            <EditText
+                android:id="@+id/Event"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/aa" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textVie"
+            android:layout_width="186dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="108dp"
+            android:text="@string/assur_v_hicule_a"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toStartOf="@+id/textV"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout99"
+            tools:ignore="MissingConstraints,NotSibling" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="157dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/ve_a"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/linearLaView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.953"
+            app:layout_constraintStart_toEndOf="@+id/textVie"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout99"
+            tools:ignore="MissingConstraints" />
+
+        <LinearLayout
+            android:id="@+id/linearLaView"
+            android:layout_width="410dp"
+            android:layout_height="63dp"
+            android:layout_marginEnd="1dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView15"
+            tools:ignore="DuplicateIds,MissingConstraints,UnknownId">
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="73dp"
+                android:layout_height="31dp"
+                android:layout_weight="1"
+                android:text="@string/nom_majusc"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/editTextT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textVi5"
+                android:layout_width="88dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/Nom" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLa"
+            android:layout_width="408dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="3dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout5"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/textView411"
+                android:layout_width="46dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:text="@string/adresse" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView533"
+                android:layout_width="73dp"
+                android:layout_height="29dp"
+                android:layout_weight="1"
+                android:text="@string/adress" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout8"
+            android:layout_width="410dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/linearLaVV"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLa"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="50dp"
+                android:layout_height="39dp"
+                android:layout_weight="1"
+                android:text="@string/st_d_assurances" />
+
+            <EditText
+                android:id="@+id/editTextTextPostalAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPostalAddress" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="56dp"
+                android:layout_height="42dp"
+                android:layout_weight="1"
+                android:text="@string/tt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLaVV"
+            android:layout_width="408dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="3dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/linearLaVx"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout8"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/textView4000"
+                android:layout_width="73dp"
+                android:layout_height="31dp"
+                android:layout_weight="1"
+                android:text="@string/n_d_attestation" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView599"
+                android:layout_width="72dp"
+                android:layout_height="31dp"
+                android:layout_weight="1"
+                android:text="@string/chahada" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLaVx"
+            android:layout_width="411dp"
+            android:layout_height="59dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/linearLaS"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLaVV"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/textView4112"
+                android:layout_width="73dp"
+                android:layout_height="31dp"
+                android:layout_weight="1"
+                android:text="@string/n_de_police" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonNe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView98"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/n" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLaS"
+            android:layout_width="411dp"
+            android:layout_height="74dp"
+            android:layout_marginBottom="12dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLaVx"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/textView4223"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/n_carte_verte_pour_les_trangers" />
+
+            <EditText
+                android:id="@+id/editTextTextPenName"
+                android:layout_width="333dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/text221"
+                android:layout_width="208dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/crt_vert" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="409dp"
+            android:layout_height="58dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/linr"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLaS"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/textViewdate"
+                android:layout_width="61dp"
+                android:layout_height="39dp"
+                android:layout_weight="1"
+                android:text="@string/attestation_valable_du"
+                android:textColor="#070707"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/Edate"
+                android:layout_width="79dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="date"
+                android:minHeight="48dp"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="22dp"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                android:text="@string/au"
+                android:textColor="#070707"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/Eheure"
+                android:layout_width="68dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="time"
+                android:minHeight="48dp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="54dp"
+                android:layout_height="34dp"
+                android:layout_weight="1"
+                android:text="@string/date"
+                android:textColor="#070707"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linr"
+            android:layout_width="411dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/textView22"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/textView16223"
+                android:layout_width="89dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/agence_bureau_ou_coutier" />
+
+            <EditText
+                android:id="@+id/editTextTextPost34s"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPostalAddress" />
+
+            <TextView
+                android:id="@+id/textVie2324"
+                android:layout_width="56dp"
+                android:layout_height="42dp"
+                android:layout_weight="1"
+                android:text="@string/agnc" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="405dp"
+            android:layout_height="58dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/linearLa"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.666"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLaView"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/textView400"
+                android:layout_width="73dp"
+                android:layout_height="31dp"
+                android:layout_weight="1"
+                android:text="@string/pr_nom" />
+
+            <EditText
+                android:id="@+id/editTextTex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView5000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/prenom" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="169dp"
+            android:layout_height="49dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/conducteur"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout11"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linr"
+            tools:ignore="MissingConstraints" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout11"
+            android:layout_width="413dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout12"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView22">
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/nomc" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="86dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/na2" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout12"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout13"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout11">
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/prenomc" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/pac" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout14"
+            android:layout_width="410dp"
+            android:layout_height="58dp"
+            android:layout_marginEnd="3dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout15"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout13"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="144dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/permis_de_conduire_n" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radioButton5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/a1" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/a" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/b" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/c" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/d" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/e" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/f" />
+
+                </LinearLayout>
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout17"
+            android:layout_width="407dp"
+            android:layout_height="241dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView33">
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:text="TextView" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="171dp"
+                android:orientation="horizontal"
+                tools:ignore="MissingConstraints">
+
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="241dp"
+                    android:layout_height="136dp"
+                    app:srcCompat="@drawable/point_choc" />
+
+                <RadioGroup
+                    android:id="@+id/rg"
+                    android:layout_width="137dp"
+                    android:layout_height="137dp"
+                    app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <RadioButton
+                        android:id="@+id/moto"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="check1"
+                        android:text="@string/moto" />
+
+                    <RadioButton
+                        android:id="@+id/voiture"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="checke2"
+                        android:text="@string/voiturer" />
+
+                    <RadioButton
+                        android:id="@+id/camion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="check3"
+                        android:text="@string/camion" />
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="409dp"
+            android:layout_height="286dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="6dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout17"
+            tools:ignore="UnknownId">
+
+            <LinearLayout
+                android:id="@+id/lnr2"
+                android:layout_width="117dp"
+                android:layout_height="289dp"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/c1_"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="checke2"
+                    android:text="A" />
+
+                <CheckBox
+                    android:id="@+id/c2_"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="checke2"
+                    android:text="B" />
+
+                <CheckBox
+                    android:id="@+id/c3_"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="checke2"
+                    android:text="C" />
+
+                <CheckBox
+                    android:id="@+id/c4_"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="checke2"
+                    android:text="D" />
+
+                <CheckBox
+                    android:id="@+id/c5_"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="checke2"
+                    android:text="E" />
+
+                <CheckBox
+                    android:id="@+id/c6_"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="checke2"
+                    android:text="F" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lnr1"
+                android:layout_width="136dp"
+                android:layout_height="291dp"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/c1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="check1"
+                    android:text="A" />
+
+                <CheckBox
+                    android:id="@+id/c2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="check1"
+                    android:text="B" />
+
+                <CheckBox
+                    android:id="@+id/c3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="check1"
+                    android:text="C" />
+
+                <CheckBox
+                    android:id="@+id/c4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="check1"
+                    android:text="D" />
+
+                <CheckBox
+                    android:id="@+id/c5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="check1"
+                    android:text="E" />
+
+                <CheckBox
+                    android:id="@+id/c6"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:onClick="check1"
+                    android:text="F" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lnr3"
+                android:layout_width="133dp"
+                android:layout_height="289dp"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/c1__"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="check3"
+                    android:text="A" />
+
+                <CheckBox
+                    android:id="@+id/c2__"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="check3"
+                    android:text="B" />
+
+                <CheckBox
+                    android:id="@+id/c3__"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="check3"
+                    android:text="C" />
+
+                <CheckBox
+                    android:id="@+id/c4__"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="check3"
+                    android:text="D" />
+
+                <CheckBox
+                    android:id="@+id/c5__"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="check3"
+                    android:text="E" />
+
+                <CheckBox
+                    android:id="@+id/c6__"
+                    android:layout_width="match_parent"
+                    android:layout_height="31dp"
+                    android:onClick="check3"
+                    android:text="F" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout7"
+            android:layout_width="408dp"
+            android:layout_height="68dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.666"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout6"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="141dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/n_d_immatricul_ou_n_du_moteur" />
+
+            <EditText
+                android:id="@+id/En1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/textV"
+                android:layout_width="wrap_content"
+                android:layout_height="51dp"
+                android:layout_weight="1"
+                android:text="@string/matrucile" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout9"
+            android:layout_width="411dp"
+            android:layout_height="59dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout16">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Permis valable jusqu'au :" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="رخصة صالحة لغاية :" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="410dp"
+            android:layout_height="36dp"
+            android:layout_marginEnd="1dp"
+            android:text="(pour les catégories CDE et les taxis )"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout9"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="410dp"
+            android:layout_height="36dp"
+            android:layout_marginEnd="1dp"
+            android:text="(خاصة بالفئات س د أ و سيارات الأجرة )"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView34"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/btnfrst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout18" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout10"
+            android:layout_width="410dp"
+            android:layout_height="88dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Dégâts apparents :" />
+
+            <EditText
+                android:id="@+id/editTextTextMultiLine"
+                android:layout_width="311dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout18"
+            android:layout_width="410dp"
+            android:layout_height="75dp"
+            android:layout_marginEnd="1dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout10">
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Observations :" />
+
+            <EditText
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine" />
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
